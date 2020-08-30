@@ -8,11 +8,17 @@
 # José Sanchez, 25 años, Arquero, DNI 29.444.333
 #
 # Se pide:
-# -Organizarlos en una tabla
-# -Indicar los nombres que propone para los campos
-# -Indicar el nombre que propone para la tabla
 
-# Objetivo de ejercicio: Implementación de conceptos de base de datos
+# -Organizarlos en una tabla
+# Implementado en cuerpo de script
+
+# -Indicar los nombres que propone para los campos
+# Los nombres de los campos son "nombre", "apellido", edad, posicion (sin acento) y dni
+
+# -Indicar el nombre que propone para la tabla
+# El nombre de la tabla es "datos_futbolistas" y el de la db es "futbolistas"
+
+# Objetivo de ejercicio: Implementación de conceptos de base de datos en mysql
 
 # Desarrollo
 

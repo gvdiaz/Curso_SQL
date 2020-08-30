@@ -12,6 +12,8 @@
 # -Indicar los nombres que propone para los campos
 # -Indicar el nombre que propone para la tabla
 
+# Objetivo de ejercicio: Implementación de conceptos de base de datos
+
 # Desarrollo
 
 CREATE DATABASE futbolistas;
@@ -35,7 +37,20 @@ INSERT INTO datos_futbolistas (
     "Perez",
     21,
     "Delantero",
-    31222333);
+    31222333),
+    (
+    "Juan",
+    "Rodriguez",
+    23,
+    "Defensor",
+    30222444),
+    (
+    "José",
+    "Sanchez",
+    25,
+    "Arquero",
+    29444333)
+    ;
 SELECT * FROM datos_futbolistas;
 DROP TABLE datos_futbolistas;
 DROP DATABASE futbolistas;

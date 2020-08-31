@@ -5,7 +5,7 @@
 # Escribir una sentencia para borrar a todos los que tengan menos de 21 años de edad.
 #
 
-# Objetivo de ejercicio: Implementación de borrado de registro en DB cuando se da una condición
+# Objetivo de ejercicio: Implementación de borrado de registro en DB cuando se da una condición. Comparo lo traído por SELECT antes y después de borrar.
 
 # Desarrollo
 

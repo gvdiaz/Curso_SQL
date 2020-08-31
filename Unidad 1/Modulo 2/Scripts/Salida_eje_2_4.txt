@@ -3,5 +3,5 @@ Alberto	Perez	21	Delantero	31222333
 Juan	Rodriguez	23	Defensor	30222444
 José	Sanchez	25	Arquero	29444333
 nombre	apellido	edad	posicion	dni
-Alberto	Perez	21	Delantero	31222333
 Juan	Rodriguez	23	Defensor	30222444
+José	Sanchez	25	Arquero	29444333

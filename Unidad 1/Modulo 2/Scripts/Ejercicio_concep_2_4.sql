@@ -45,7 +45,7 @@ INSERT INTO datos_futbolistas (
     29444333)
     ;
 SELECT * FROM datos_futbolistas;
-DELETE FROM datos_futbolistas WHERE posicion = "Arquero";
+DELETE FROM datos_futbolistas WHERE edad < 22;
 SELECT * FROM datos_futbolistas;
 DROP TABLE datos_futbolistas;
 DROP DATABASE futbolistas;

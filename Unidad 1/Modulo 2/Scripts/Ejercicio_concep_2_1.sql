@@ -13,7 +13,7 @@
 # Implementado en cuerpo de script
 
 # -Indicar los nombres que propone para los campos
-# Los nombres de los campos son "nombre", "apellido", edad, posicion (sin acento) y dni
+# Los nombres de los campos son "nombre", "apellido", "edad", "posicion" (sin acento) y "dni"
 
 # -Indicar el nombre que propone para la tabla
 # El nombre de la tabla es "datos_futbolistas" y el de la db es "futbolistas"

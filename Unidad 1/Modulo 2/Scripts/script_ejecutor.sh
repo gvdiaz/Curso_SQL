@@ -1,3 +1,3 @@
 #!/bin/bash
-# Ejecuta script de mysql "Ejercicio_concep_2_1". No necesita ningún argumento para funcionar
-mysql -u "root" -p < "Ejercicio_concep_2_1.sql"
+# Ejecuta script de mysql que se ingresa como argumento.
+mysql -u "root" -p < $1 > $2

@@ -1,0 +1,20 @@
+Field	Type	Null	Key	Default	Extra
+cuit	varchar(20)	NO	PRI	NULL	
+nombre	varchar(20)	YES		NULL	
+direccion	varchar(20)	YES		NULL	
+Field	Type	Null	Key	Default	Extra
+cuit	varchar(20)	YES		NULL	
+IdFactura	int	NO	PRI	NULL	
+fecha	date	YES		NULL	
+condicion_pago	varchar(30)	YES		NULL	
+fecha_venc	date	YES		NULL	
+subtotal	float	YES		NULL	
+impuesto	float	YES		NULL	
+Field	Type	Null	Key	Default	Extra
+IdFactura	int	NO	PRI	NULL	
+IdRenglon	int	NO	PRI	NULL	
+IdArticulo	int	YES		NULL	
+cantidad	int	YES		NULL	
+Field	Type	Null	Key	Default	Extra
+IdArticulo	int	NO	PRI	NULL	
+articulo	varchar(30)	YES		NULL	

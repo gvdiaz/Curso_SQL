@@ -1,4 +1,4 @@
-# Descripción: Ejercicio práctico 2.1 (o Implementación ejercicio conceptual 2.1)
+# Descripción: Ejercicio práctico 2.1 y 2.2 (o Implementación ejercicio conceptual 2.1)
 # Autor: Gustavo Vladimir Diaz
 # Fecha: 05/09/2020
 # Enunciado: 

@@ -8,6 +8,8 @@
 
 # Desarrollo
 
+# Al ejecutar el script la línea DESCRIBE muestra las columnas declaradas y la de "dni" tiene indicado que es una PRI (primary) key
+
 CREATE DATABASE futbolistas;
 USE futbolistas;
 CREATE TABLE datos_futbolistas (

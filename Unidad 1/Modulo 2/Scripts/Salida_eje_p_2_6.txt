@@ -1,0 +1,6 @@
+Field	Type	Null	Key	Default	Extra
+nombre	varchar(30)	YES		NULL	
+apellido	varchar(30)	YES		NULL	
+edad	int	YES		NULL	
+posicion	varchar(30)	YES		NULL	
+dni	int	NO	PRI	NULL	

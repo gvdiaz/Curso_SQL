@@ -1,0 +1,41 @@
+Field	Type	Null	Key	Default	Extra
+IdConductor	int unsigned	NO	PRI	NULL	
+dni	int unsigned	NO		NULL	
+nombre_cond	varchar(30)	NO		NULL	
+apellido_cond	varchar(30)	NO		NULL	
+telefono	int unsigned	YES		NULL	
+dirección	varchar(30)	YES		NULL	
+numero_dir	int unsigned	YES		NULL	
+ciudad	varchar(30)	YES		NULL	
+salario	int	NO		NULL	
+Field	Type	Null	Key	Default	Extra
+IdPaquete	int unsigned	NO	PRI	NULL	
+descripcion	varchar(50)	YES		NULL	
+IdDestino	int unsigned	NO		NULL	
+IdRemitente	int unsigned	NO		NULL	
+IdConductor	int unsigned	NO		NULL	
+IdCamion	int unsigned	NO		NULL	
+Field	Type	Null	Key	Default	Extra
+IdCamion	int unsigned	NO	PRI	NULL	
+patente	int unsigned	NO		NULL	
+modelo	varchar(30)	NO		NULL	
+marca	varchar(30)	NO		NULL	
+Potencia_motor	int unsigned	YES		NULL	
+Field	Type	Null	Key	Default	Extra
+IdDestino	int unsigned	NO	PRI	NULL	
+direccion	varchar(30)	NO		NULL	
+numero_dir	int unsigned	NO		NULL	
+localidad	varchar(30)	NO		NULL	
+provincia	varchar(30)	NO		NULL	
+nombre_dest	varchar(30)	NO		NULL	
+apellido_dest	varchar(30)	NO		NULL	
+fecha_entrega	date	NO		NULL	
+Field	Type	Null	Key	Default	Extra
+IdRemitente	int unsigned	NO	PRI	NULL	
+direccion	varchar(30)	NO		NULL	
+numero_dir	int unsigned	NO		NULL	
+localidad	varchar(30)	NO		NULL	
+provincia	varchar(30)	NO		NULL	
+nombre_rem	varchar(30)	NO		NULL	
+apellido_rem	varchar(30)	NO		NULL	
+fecha_envio	date	NO		NULL	

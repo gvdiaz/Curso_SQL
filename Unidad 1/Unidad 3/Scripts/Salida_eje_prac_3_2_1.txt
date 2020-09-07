@@ -1,0 +1,10 @@
+Table	Non_unique	Key_name	Seq_in_index	Column_name	Collation	Cardinality	Sub_part	Packed	Null	Index_type	Comment	Index_comment	Visible	Expression
+conductor	0	PRIMARY	1	IdConductor	A	0	NULL	NULL		BTREE			YES	NULL
+Table	Non_unique	Key_name	Seq_in_index	Column_name	Collation	Cardinality	Sub_part	Packed	Null	Index_type	Comment	Index_comment	Visible	Expression
+paquete	0	PRIMARY	1	IdPaquete	A	0	NULL	NULL		BTREE			YES	NULL
+Table	Non_unique	Key_name	Seq_in_index	Column_name	Collation	Cardinality	Sub_part	Packed	Null	Index_type	Comment	Index_comment	Visible	Expression
+camion	0	PRIMARY	1	IdCamion	A	0	NULL	NULL		BTREE			YES	NULL
+Table	Non_unique	Key_name	Seq_in_index	Column_name	Collation	Cardinality	Sub_part	Packed	Null	Index_type	Comment	Index_comment	Visible	Expression
+destinatario	0	PRIMARY	1	IdDestino	A	0	NULL	NULL		BTREE			YES	NULL
+Table	Non_unique	Key_name	Seq_in_index	Column_name	Collation	Cardinality	Sub_part	Packed	Null	Index_type	Comment	Index_comment	Visible	Expression
+remitente	0	PRIMARY	1	IdRemitente	A	0	NULL	NULL		BTREE			YES	NULL

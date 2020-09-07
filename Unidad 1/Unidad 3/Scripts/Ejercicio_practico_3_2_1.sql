@@ -92,38 +92,38 @@ CREATE TABLE remitente (
 # Tablas definidas
 # conductor
 
-CREATE CLUSTERED INDEX ON conductor
-(
-IdConductor DESC
-);
+-- CREATE CLUSTERED INDEX ON conductor
+-- (
+-- IdConductor DESC
+-- );
 
 # paquete
 
-CREATE CLUSTERED INDEX Ind_paq ON paquete
-(
-IdPaquete ASC
-);
+-- CREATE CLUSTERED INDEX Ind_paq ON paquete
+-- (
+-- IdPaquete ASC
+-- );
 
 # camion
 
-CREATE CLUSTERED INDEX Ind_cam ON camion
-(
-IdCamion DESC
-);
+-- CREATE CLUSTERED INDEX Ind_cam ON camion
+-- (
+-- IdCamion DESC
+-- );
 
 # destinatario
 
-CREATE CLUSTERED INDEX Ind_dest ON destinatario
-(
-IdDestino DESC
-);
+-- CREATE CLUSTERED INDEX Ind_dest ON destinatario
+-- (
+-- IdDestino DESC
+-- );
 
 # remitente
 
-CREATE CLUSTERED INDEX Ind_rem ON remitente
-(
-IdRemitente DESC
-);
+-- CREATE CLUSTERED INDEX Ind_rem ON remitente
+-- (
+-- IdRemitente DESC
+-- );
 
 
 # Comandos para ver las tablas y sus características

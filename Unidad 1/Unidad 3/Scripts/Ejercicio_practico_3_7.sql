@@ -1,4 +1,4 @@
-# Descripción: Ejercicio 3.6
+# Descripción: Ejercicio 3.7
 # Autor: Gustavo Vladimir Diaz
 # Fecha: 25/09/2020
 # Enunciado: 

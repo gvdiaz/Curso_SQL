@@ -126,6 +126,10 @@ INSERT INTO articulos(IdArticulo, Articulo) VALUES
 # Uso de sentencia truncate
 #TRUNCATE TABLE facturas;
 
+# Finalmente planteo la cuestión del ejercicio, crear la vista
+CREATE VIEW Fact_clientes AS
+SELECT CUIT, IdFactura, subtotal FROM facturas;
+
 # Comandos para eliminar tablas
 
 DROP TABLE clientes;

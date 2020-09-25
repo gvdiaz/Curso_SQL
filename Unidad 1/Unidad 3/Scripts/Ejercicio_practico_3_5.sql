@@ -8,12 +8,6 @@
 
 # Desarrollo
 # CREATE TABLE dbo.clientes
-#(
-# IdCliente INT NOT NULL,
-# FechaAlta DATE NOT NULL,
-# RazonSocial VARCHAR(50) NOT NULL,
-# Vendedor VARCHAR(50) NULL
-# )
 
 CREATE DATABASE prueba_cliente_eje_3_5;
 USE prueba_cliente_eje_3_5;

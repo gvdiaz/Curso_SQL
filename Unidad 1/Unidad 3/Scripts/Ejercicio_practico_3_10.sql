@@ -8,7 +8,8 @@
 
 # Desarrollo
 # Copio lo desarrollado en el ejercicio práctico 3.4 en cuanto a la creación de la base de datos.
-# Nota: El ejercicio 3.11 pide realizar la llamada al procedimiento creado este script cumple con lo requerido en la línea 49   
+# Nota 1: El ejercicio 3.11 pide realizar la llamada al procedimiento creado este script cumple con lo requerido en la línea 50
+# Nota 2: El ejercicio 3.12 pide borrar los procedimientos creados. Esto se realiza en la línea 53
 
 CREATE DATABASE prueba_cliente_eje_3_10;
 USE prueba_cliente_eje_3_10;
@@ -47,6 +48,9 @@ DELIMITER ;
     
 # Uso de vista para ver solamente a Razon social de los clientes
 CALL prueba_cliente_eje_3_10.procedimiento_cliente(2015);
+
+# Borrado de procedimiento creado
+DROP PROCEDURE procedimiento_cliente;
 
 # Comandos para eliminar tablas
 DROP TABLE clientes;

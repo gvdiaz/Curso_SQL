@@ -1,0 +1,10 @@
+Raiz cuadrada de 4
+Raiz cuadrada de 4
+power(4,1/2)
+2
+
+
+Seno 90°
+Seno 90°
+sin(pi()/2)
+1

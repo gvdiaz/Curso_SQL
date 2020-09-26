@@ -1,4 +1,4 @@
-# Descripción: Ejercicio 3.9
+# Descripción: Ejercicio 3.9/11
 # Autor: Gustavo Vladimir Diaz
 # Fecha: 26/09/2020
 # Enunciado: 
@@ -8,6 +8,7 @@
 
 # Desarrollo
 # Copio lo desarrollado en el ejercicio práctico 3.4 en cuanto a la creación de la base de datos. La versión "b" la implemento con un proceso.
+# Nota: El ejercicio 3.11 pide realizar la llamada al procedimiento creado este script cumple con lo requerido en la línea 47
 
 CREATE DATABASE prueba_cliente_eje_3_9;
 USE prueba_cliente_eje_3_9;

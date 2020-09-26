@@ -1,6 +1,6 @@
-# Descripción: Caso 1 de ejercicio 3.4
+# Descripción: Ejercicio práctico 3.4
 # Autor: Gustavo Vladimir Diaz
-# Fecha: 12/09/2020
+# Fecha: 26/09/2020
 # Enunciado: 
 # Crear una vista muestra la tabla clientes que están asignados al vendedor PEPE
 #
@@ -23,22 +23,26 @@ CREATE TABLE clientes(
     RazonSocial VARCHAR(50) NOT NULL,
     Vendedor VARCHAR(50) NULL
     );
-    
-# Creación de vista para ver solamente a los clientes
-# Comandos para ver las tablas y sus características
 
-DESCRIBE conductor;
-DESCRIBE paquete;
-DESCRIBE camion;
-DESCRIBE destinatario;
-DESCRIBE remitente;
+# Ingreso de datos en tabla creada
+# Ingreso de Clientes
+INSERT INTO clientes(IdCliente, FechaAlta, RazonSocial, Vendedor) VALUES
+	(1, str_to_date('15,09,2020','%d,%m,%Y'), 'Apolo SRL', 'PEPE'),
+    (2, str_to_date('20,10,2010','%d,%m,%Y'), "Zeus SRL", "CARLOS"),
+    (3, str_to_date('09,07,2015','%d,%m,%Y'), "Asclepio SRL", "ROBERTO"),
+    (4, str_to_date('04,05,2017','%d,%m,%Y'), "Dionisio SRL", "PEPE"),
+    (5, str_to_date('29,09,1984','%d,%m,%Y'), "Poseidon SRL", "MARISA");
+
+
+# Finalmente planteo la cuestión del ejercicio, crear la vista
+CREATE VIEW vista_clientes AS
+SELECT RazonSocial, Vendedor FROM clientes WHERE Vendedor = 'PEPE';
+    
+# Uso de vista para ver solamente a Razon social de los clientes
+SELECT * FROM prueba_cliente_eje_3_4.vista_clientes;
 
 # Comandos para eliminar tablas
-DROP TABLE conductor;
-DROP TABLE paquete;
-DROP TABLE camion;
-DROP TABLE destinatario;
-DROP TABLE remitente;
+DROP TABLE clientes;
 
 # Comandos para eliminar base de datos
-DROP DATABASE entregas;
+DROP DATABASE prueba_cliente_eje_3_4;

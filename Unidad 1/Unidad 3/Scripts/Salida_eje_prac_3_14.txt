@@ -1,0 +1,62 @@
+Obtener los 5 primeros caracteres de la cadena "ABCDEFGHIJ"
+Obtener los 5 primeros caracteres de la cadena "ABCDEFGHIJ"
+LEFT("ABCDEFGHIJ", 5)
+ABCDE
+
+
+Obtener los 5 últimos caracteres de la cadena "ABCDEFGHIJ"
+Obtener los 5 últimos caracteres de la cadena "ABCDEFGHIJ"
+RIGHT("ABCDEFGHIJ", 5)
+FGHIJ
+
+
+Convertir a minúsculas la cadena "ABCDEFGHIJ"
+Convertir a minúsculas la cadena "ABCDEFGHIJ"
+LOWER("ABCDEFGHIJ")
+abcdefghij
+
+
+Convertir a mayúsculas el resultado de C.
+Convertir a mayúsculas el resultado de C.
+UPPER(LOWER("ABCDEFGHIJ"))
+ABCDEFGHIJ
+
+
+Obtener los caracteres 3ro, 4to y 5to de la cadena "ABCDEFGHIJ"
+Obtener los caracteres 3ro, 4to y 5to de la cadena "ABCDEFGHIJ"
+SUBSTRING("ABCDEFGHIJ", 3, 3)
+CDE
+
+
+Obtener una cadena que repita veinte veces la letra "A"
+Obtener una cadena que repita veinte veces la letra "A"
+REPEAT('A', 20)
+AAAAAAAAAAAAAAAAAAAA
+
+
+Tomar la cadena "MAMA" y reemplazar cada "M" por una "C".
+Tomar la cadena "MAMA" y reemplazar cada "M" por una "C".
+MAMA
+MAMA
+REPLACE('MAMA', 'M', 'C')
+CACA
+
+
+Eliminar los espacios en blanco a derecha de la cadena " ABC "
+Eliminar los espacios en blanco a derecha de la cadena " ABC "
+RTRIM(" ABC ")
+ ABC
+
+
+Eliminar los espacios en blanco a izquierda de la cadena " ABC "
+Eliminar los espacios en blanco a izquierda de la cadena " ABC "
+LTRIM(" ABC ")
+ABC 
+
+
+Eliminar los espacios en blanco a derecha y a izquierda en la cadena "
+Eliminar los espacios en blanco a derecha y a izquierda en la cadena "
+RTRIM(LTRIM(" ABC "))
+ABC
+
+

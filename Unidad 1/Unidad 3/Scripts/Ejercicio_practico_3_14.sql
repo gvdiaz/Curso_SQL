@@ -1,6 +1,6 @@
-# Descripción: Ejercicio 3.13
+# Descripción: Ejercicio 3.14
 # Autor: Gustavo Vladimir Diaz
-# Fecha: 26/09/2020
+# Fecha: 27/09/2020
 # Enunciado: 
 # A. Obtener los 5 primeros caracteres de la cadena "ABCDEFGHIJ"
 # B. Obtener los 5 últimos caracteres de la cadena "ABCDEFGHIJ"

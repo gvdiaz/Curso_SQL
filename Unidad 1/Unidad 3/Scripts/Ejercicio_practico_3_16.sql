@@ -1,6 +1,6 @@
 # Descripción: Ejercicio 3.16
 # Autor: Gustavo Vladimir Diaz
-# Fecha: 27/09/2020
+# Fecha: 02/10/2020
 # Enunciado: 
 # Averigüe si el año 2000 fué bisiesto. Aplique el código de la función y vea cuantos días obtiene para febrero de 2000.
 # Investigue (por ejemplo en la wikipedia sobre los años bisiestos y verá que hace falta corregir la regla que hemos desarrollado para los años que son múltiplos de 1000)
@@ -14,67 +14,36 @@
 # Decripción
 # Referencia para implementación de funciones en MySQL: https://www.neoguias.com/funciones-almacenadas-mysql/
 
-CREATE DATABASE prueba_eje_3_15;
-USE prueba_eje_3_15;
+CREATE DATABASE prueba_eje_3_16;
+USE prueba_eje_3_16;
+
+# Línea agregada porque sino tira "Error Code: 1418.
+SET GLOBAL log_bin_trust_function_creators = 1;
+
+#Uso delimitadores: en MySQL sirve para parasarle código de definición como por ejemplo procedimientos almacenados o funciones
+DELIMITER //
+# Función en si
+CREATE FUNCTION calc_anio_bisiesto(anio INT) RETURNS INT
+BEGIN
+	DECLARE dias_febrero INT;
+    
+    SET dias_febrero = 
+	IF ((FLOOR(anio/4)*4) = anio,
+		# Condición verdadera
+        IF ((FLOOR(anio/100)*100) = anio,
+			# Condición verdadera
+            28,
+            # Condición falsa
+            29),
+		# Condición falsa
+        28);
+	RETURN dias_febrero;
+END //
+
+DELIMITER ;
 
 # A. Obtenga la fecha actual
-SELECT 'Obtenga la fecha actual';
-SELECT CURDATE();
+SELECT 'Calculo si el año ingresado es bisiesto';
+SELECT calc_anio_bisiesto(2008) AS Dias_Febrero;
 
-SELECT '';
-
-# B. Obtenga el año de la fecha actual
-SELECT 'Obtenga el año de la fecha actual';
-SELECT YEAR(CURDATE());
-
-SELECT '';
-
-# C. Obtenga el mes de la fecha actual
-SELECT 'Obtenga el mes de la fecha actual';
-SELECT MONTH(CURDATE());
-
-SELECT '';
-
-# D. Obtenga el día de la fecha actual
-SELECT 'Obtenga el día de la fecha actual';
-SELECT DAY(CURDATE());
-
-SELECT '';
-
-# E. Obtenga la fecha correspondiente a 7 días en el futuro de la fecha actual
-SELECT 'Obtenga la fecha correspondiente a 7 días en el futuro de la fecha actual';
-SELECT DATE_ADD(CURDATE(), INTERVAL 7 DAY);
-
-SELECT '';
-
-# F. Obtenga el mes de 30 días en el futuro de la fecha actual
-SELECT 'Obtenga el mes de 30 días en el futuro de la fecha actual';
-SELECT MONTH(DATE_ADD(CURDATE(), INTERVAL 30 DAY));
-
-SELECT '';
-
-# G. Obtenga la fecha correspondiente a un año en el futuro desde la fecha actual
-SELECT 'Obtenga la fecha correspondiente a un año en el futuro desde la fecha actual';
-SELECT DATE_ADD(CURDATE(), INTERVAL 1 YEAR);
-
-SELECT '';
-
-# H. Obtenga la fecha correspondiente a 30 años en el futuro desde la fecha de su cumpleaños.
-SELECT 'Obtenga la fecha correspondiente a 30 años en el futuro desde la fecha de su cumpleaños.';
-SELECT DATE_ADD(STR_TO_DATE('15,09,1983','%d,%m,%Y'), INTERVAL 30 YEAR);
-
-SELECT '';
-
-# I. Obtenga el año correspondiente a 30 años después de la fecha de su cumpleaños.
-SELECT 'Obtenga el año correspondiente a 30 años después de la fecha de su cumpleaños.';
-SELECT YEAR(DATE_ADD(STR_TO_DATE('15,09,1983','%d,%m,%Y'), INTERVAL 30 YEAR));
-
-SELECT '';
-
-# J. Obtenga el mes correspondiente a 9 meses antes de su fecha de cumpleaños.
-SELECT 'Obtenga el mes correspondiente a 9 meses antes de su fecha de cumpleaños.';
-SELECT MONTH(DATE_SUB(STR_TO_DATE('15,09,1983','%d,%m,%Y'), INTERVAL 9 MONTH));
-
-SELECT '';
-
-DROP DATABASE prueba_eje_3_15;
+DROP DATABASE prueba_eje_3_16;

@@ -71,6 +71,8 @@ DELIMITER ;
 
 # A. Obtenga la fecha actual
 SELECT 'Calculo si el año ingresado es bisiesto';
-SELECT calc_anio_bisiesto(2008) AS Dias_Febrero;
+SET @anio_a_calc = 2000;
+SELECT @anio_a_calc AS Año;
+SELECT calc_anio_bisiesto(@anio_a_calc) AS Dias_Febrero;
 
 DROP DATABASE prueba_eje_3_16;

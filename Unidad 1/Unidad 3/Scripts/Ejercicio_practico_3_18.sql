@@ -18,11 +18,11 @@ SET GLOBAL log_bin_trust_function_creators = 1;
 #Uso delimitadores: en MySQL sirve para parasarle código de definición como por ejemplo procedimientos almacenados o funciones
 DELIMITER //
 # Función en si
-CREATE FUNCTION cadena_pares(ingreso INT) RETURNS VARCHAR
+CREATE PROCEDURE cadena_pares(IN ingreso INT)
 BEGIN
 	DECLARE n INT;
-    DECLARE cadena VARCHAR(255);
-    DECLARE aux CHAR;
+    DECLARE cadena VARCHAR(255) DEFAULT '0';
+    DECLARE aux VARCHAR(2);
     
     SET n = 0;
 	
@@ -31,16 +31,15 @@ BEGIN
         SET cadena = CONCAT(cadena,',',aux);
         SET n = n + 2;
     END WHILE;
---     Error: En una función no se puede declarar SELECT. Fuente de error: considerar que puedo utilizar while en una función. En la red lo utilizan en un store procedure. Voy a ir por ese lado. referencia: https://stackoverflow.com/questions/5125096/for-loop-example-in-mysql
-    #SELECT cadena;
+
+    SELECT cadena;
     
-	RETURN cadena;
 END //
 
 DELIMITER ;
 
 # Inicio script
 SET @numero = 23;
-SELECT cadena_pares(23);
+CALL cadena_pares(@numero);
 
 DROP DATABASE prueba_eje_3_18;

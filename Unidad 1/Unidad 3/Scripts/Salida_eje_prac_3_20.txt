@@ -1,0 +1,8 @@
+Mayor_sueldo
+50000
+Menor_sueldo
+35000
+Promedio
+42500
+Cantidad_empleados
+4

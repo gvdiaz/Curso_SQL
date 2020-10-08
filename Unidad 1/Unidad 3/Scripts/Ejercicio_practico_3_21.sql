@@ -59,6 +59,8 @@ INSERT INTO liquidaciones(IdEmpleado, Mes_anio_liq, Sueldo) VALUES
     (4, '2019-10-00', 40000),
     (4, '2019-09-00', 40000);
     
+-- Trigger de ejercicio a
+
 DELIMITER $$
 
 CREATE
@@ -70,6 +72,8 @@ CREATE
     
 DELIMITER ;
 
+-- Trigger de ejercicio b
+
 DELIMITER $$
 
 CREATE
@@ -77,6 +81,21 @@ CREATE
 	ON liquidaciones 
 	FOR EACH ROW BEGIN
 		INSERT INTO sueldos(IdEmpleado) VALUES (NEW.IdEmpleado);
+    END$$
+    
+DELIMITER ;
+
+-- Trigger de ejercicio c
+# Nota de implementación: El ejercicio pedía que compartan el nombre ambas tablas, cosa que no hice dado que consideré que era mejor que estén
+# relacionadas por el identificador de empleado (IdEmpleado). La cuestión es que no puedo seguir con el ejercicio como pide el punto c porque
+# la tabla liquidaciones no tiene "nombre" Por lo cual lo que voy a hacer es realizar el Trigger update pero modificando el IdEmpleado en ambas tablas.
+DELIMITER $$
+
+CREATE
+	TRIGGER actualizar_datos AFTER UPDATE
+	ON sueldos 
+	FOR EACH ROW BEGIN
+		UPDATE liquidaciones SET IdEmpleado = (NEW.IdEmpleado) WHERE IdEmpleado = OLD.IdEmpleado;
     END$$
     
 DELIMITER ;
@@ -97,5 +116,10 @@ INSERT INTO liquidaciones(IdEmpleado, Mes_anio_liq, Sueldo) VALUES
     
 SELECT * FROM sueldos;
 SELECT * FROM liquidaciones;
-    
+
+UPDATE sueldos SET IdEmpleado = 5 WHERE IdEmpleado = 3;
+
+SELECT * FROM sueldos;
+SELECT * FROM liquidaciones;
+
 DROP DATABASE prueba_eje_3_21;

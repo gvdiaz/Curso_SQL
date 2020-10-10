@@ -24,7 +24,11 @@ USE prueba_eje_3_22;
 # Creo tabla de personal
 CREATE TABLE personal(
     Nombre VARCHAR(255),
-    fecha_ingreso DATE NOT NULL DEFAULT '2000-01-00'
+    fecha_ingreso DATE NOT NULL DEFAULT '2000-01-01'
+    );
+CREATE TABLE prueba(
+    legajo_p INT,
+    fecha_ingreso_p DATE DEFAULT '2000-01-01'
     );
 
 # Ingreso de datos en tabla creada
@@ -44,48 +48,53 @@ SELECT * FROM personal;
 ALTER TABLE personal
   add legajo INT UNSIGNED;
 
-SELECT * FROM personal;
+-- SELECT * FROM personal;
 
-SELECT legajo, fecha_ingreso, NOMBRE FROM personal ORDER BY fecha_ingreso ASC;
+-- SELECT legajo, fecha_ingreso, NOMBRE FROM personal ORDER BY fecha_ingreso ASC;
 
 DELIMITER $$
-CREATE PROCEDURE crear_legajo ()
+CREATE PROCEDURE proceso ()
 BEGIN
 	DECLARE terminado INT DEFAULT 0;
-	#DECLARE orden_legajo INT DEFAULT 1;
+-- 	#DECLARE orden_legajo INT DEFAULT 1;
     DECLARE var_legajo INT DEFAULT 1;
     DECLARE aux INT DEFAULT 1;
+    DECLARE d_ingreso DATE;
 
 	-- Declarar cursor para agregar número de legajo
-	DEClARE agregar_legajo 
+	DEClARE cursor_1 
 		CURSOR FOR 
-			SELECT legajo FROM personal ORDER BY fecha_ingreso ASC;
+			SELECT legajo, fecha_ingreso FROM personal ORDER BY fecha_ingreso ASC;
 
 	-- declare NOT FOUND handler
 	DECLARE CONTINUE HANDLER 
         FOR NOT FOUND SET terminado = 1;
 
-	OPEN agregar_legajo;
+	OPEN cursor_1;
 
 	#getEmail: LOOP
-    traer_legajo: LOOP
-		FETCH agregar_legajo INTO var_legajo;
+    def_loop: LOOP
+		FETCH cursor_1 INTO var_legajo, d_ingreso;
 		IF terminado = 1 THEN 
-			LEAVE traer_legajo;
+			LEAVE def_loop;
 		END IF;
+-- 		Agrego tabla de prueba para ver que variables toma el cursor
+        INSERT INTO prueba(legajo_p,fecha_ingreso_p) VALUES (aux, d_ingreso);
 		-- Llenar número de legajo
-        # INSERT INTO personal(legajo) VALUES (aux);
-        UPDATE personal SET legajo = aux;
+--         # INSERT INTO personal(legajo) VALUES (aux);
+        UPDATE personal SET legajo = aux WHERE fecha_ingreso = d_ingreso;
         -- Sumo 1 a la variable "orden_legajo"
         SET aux = aux + 1;
-	END LOOP traer_legajo;
-	CLOSE agregar_legajo;
+	END LOOP def_loop;
+	CLOSE cursor_1;
 
 END$$
 DELIMITER ;
 
-CALL prueba_eje_3_22.crear_legajo;
+CALL prueba_eje_3_22.proceso;
 
 SELECT * FROM personal;
+
+SELECT * FROM prueba;
 
 DROP DATABASE prueba_eje_3_22;

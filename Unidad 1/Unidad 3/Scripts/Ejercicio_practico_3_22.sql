@@ -87,11 +87,114 @@ BEGIN
         SET aux = aux + 1;
 	END LOOP def_loop;
 	CLOSE cursor_1;
+END$$
+DELIMITER ;
+
+DELIMITER $$
+
+CREATE PROCEDURE proceso_2 ()
+BEGIN
+	DECLARE terminado_2 INT DEFAULT 0;
+    DECLARE var_legajo INT DEFAULT 1;
+    DECLARE aux INT;
+    DECLARE d_ingreso DATE;
+    
+    # IMPORTANTE: El código no me compilaba porque tenía las sentencias que siguen declaradas aquí. Las declaré luego del cursor y no tuvo problemas en funcionar.
+    #SELECT MAX(legajo) INTO aux FROM personal;
+    #SELECT @aux;
+	-- Declarar cursor para agregar número de legajo
+	DECLARE cursor_2
+		CURSOR FOR 
+			SELECT legajo, fecha_ingreso FROM personal WHERE legajo IS NULL	ORDER BY fecha_ingreso ASC;
+
+	-- declare NOT FOUND handler
+	DECLARE CONTINUE HANDLER 
+        FOR NOT FOUND SET terminado_2 = 1;
+
+	OPEN cursor_2;
+    
+    SELECT (MAX(legajo)+1) INTO aux FROM personal;
+
+	#getEmail: LOOP
+    def_loop_2: LOOP
+		FETCH cursor_2 INTO var_legajo, d_ingreso;
+		IF terminado_2 = 1 THEN 
+			LEAVE def_loop_2;
+		END IF;
+-- 		Agrego tabla de prueba para ver que variables toma el cursor
+        INSERT INTO prueba(legajo_p,fecha_ingreso_p) VALUES (aux, d_ingreso);
+		-- Llenar número de legajo
+--         # INSERT INTO personal(legajo) VALUES (aux);
+        UPDATE personal SET legajo = aux WHERE fecha_ingreso = d_ingreso;
+        -- Sumo 1 a la variable "orden_legajo"
+        SET aux = aux + 1;
+	END LOOP def_loop_2;
+	CLOSE cursor_2;
 
 END$$
 DELIMITER ;
 
 CALL prueba_eje_3_22.proceso;
+
+SELECT * FROM personal;
+
+-- Arranco punto b. Cuento con la tabla ya armada y con números de legajos y agrego la nómina de la empresa comprada
+INSERT INTO personal(Nombre, fecha_ingreso) VALUES
+	('Manuel', 		    '2008-01-20'),
+    ('Juan Bautista',   '2018-02-10'),
+    ('Mariano',         '2000-03-22'),
+    ('Juan Jose', 		'2002-08-23'),
+    ('Domingo', 		'2004-05-12'),
+    ('Cornelio', 		'2009-12-03'),
+    ('Juan',         	'2011-11-20');
+
+-- SELECT MAX(legajo) FROM personal; 
+
+# SELECT legajo, fecha_ingreso
+#			FROM personal
+#			WHERE legajo IS NULL
+#			ORDER BY fecha_ingreso ASC;
+
+-- DELIMITER $$
+-- CREATE PROCEDURE proceso_2 ()
+-- BEGIN
+-- 	DECLARE terminado_2 INT DEFAULT 0;
+--     DECLARE var_legajo INT DEFAULT 1;
+--     DECLARE aux INT;
+--     DECLARE d_ingreso DATE;
+--     SELECT MAX(legajo) INTO aux FROM personal;
+--     SELECT @aux;
+-- 	-- Declarar cursor para agregar número de legajo
+-- 	DECLARE cursor_2 
+-- 		CURSOR FOR 
+-- 			SELECT legajo, fecha_ingreso FROM personal WHERE legajo IS NULL	ORDER BY fecha_ingreso ASC;
+-- 
+-- 	-- declare NOT FOUND handler
+-- 	DECLARE CONTINUE HANDLER 
+--         FOR NOT FOUND SET terminado_2 = 1;
+-- 
+-- 	OPEN cursor_2;
+-- 
+-- 	#getEmail: LOOP
+--     def_loop_2: LOOP
+-- 		FETCH cursor_2 INTO var_legajo, d_ingreso;
+-- 		IF terminado_2 = 1 THEN 
+-- 			LEAVE def_loop_2;
+-- 		END IF;
+-- -- 		Agrego tabla de prueba para ver que variables toma el cursor
+--         INSERT INTO prueba(legajo_p,fecha_ingreso_p) VALUES (aux, d_ingreso);
+-- 		-- Llenar número de legajo
+-- --         # INSERT INTO personal(legajo) VALUES (aux);
+--         UPDATE personal SET legajo = aux WHERE fecha_ingreso = d_ingreso;
+--         -- Sumo 1 a la variable "orden_legajo"
+--         SET aux = aux + 1;
+-- 	END LOOP def_loop_2;
+-- 	CLOSE cursor_2;
+-- 
+-- END$$
+-- DELIMITER ;
+
+CALL prueba_eje_3_22.proceso_2;
 
 SELECT * FROM personal;
 

@@ -50,9 +50,36 @@ SELECT * FROM prueba.alumnos;
 # Este ejercicio requiere que lea la guía para entender de que cursos se habla
 
 INSERT INTO inscripciones(IdCurso, IdAlumno) VALUES
-(1, 'Mengano'),
-(2, 'Fulano'),
-(3, 'Sutano');
+(1, 1),		# Mengano en curso 1
+(2, 1),		# Mengano en curso 2
+(3, 1),		# Mengano en curso 3
+(1, 2),		# Fulano en curso 1
+(2, 2),		# Fulano en curso 2
+(1, 3);		# Sutano en curso 1
+
+# Ejercicio Práctico 5.7 Cree y ejecute una consulta que indique cuantos alumnos hay en cada curso (va a tener que combinar GROUP BY y JOIN)
+
+SELECT IdCurso, COUNT(IdAlumno) FROM inscripciones GROUP BY IdCurso;
+
+# Ejercicio Práctico 5.8 Cargue valores para la tabla de inscripciones de manera que el primer alumno tenga asignados 3 cursos,
+# el segundo 2 y el tercero 1. Si no ha cargado aún los alumnos hágalo.
+
+# Borro los datos ingresados en el punto 5.6
+TRUNCATE TABLE inscripciones;
+
+# Ingreso lo mismo, Megano (IdAlumno = 1) está anotado en los 3 cursos, Fulano (IdAlumno =2) está anotado en 2 cursos y
+# Sutano (IdAlumno = 3) está anotado en un solo curso. 
+INSERT INTO inscripciones(IdCurso, IdAlumno) VALUES
+(1, 1),		# Mengano en curso 1
+(2, 1),		# Mengano en curso 2
+(3, 1),		# Mengano en curso 3
+(1, 2),		# Fulano en curso 1
+(2, 2),		# Fulano en curso 2
+(1, 3);		# Sutano en curso 1
+
+# Ejercicio Práctico 5.9 Vuelva a ejecutar el procedimiento almacenado para verificar que lista los cursos adecuadamente.
+
+SELECT * FROM inscripciones;
 
 DROP TABLE prueba.alumnos;
 DROP DATABASE prueba;

@@ -1,85 +1,85 @@
 Módulo 3
-Unidad 3
-Exámen de Bases de datos orientada a objetos
+Unidad 4
+Exámen de Bases de datos orientada a big data
 
 Pregunta 1
- Cómo se logra almacenar datos de aplicaciones que utilizan programas orientados a objetos en RDBMS?
+Para proyectar el campo 'field':
 Seleccione una:
-Xx	a. mediante SQL embebido
-	b. mediante programas en Fortran
-	c. mediante SQL standard
-	d. ninguna de las otras
+	a. Ninguna de las otras
+Xx	b. Basta usar $field:1 en la consulta
+	c. Se usa el comando 'use'
+	d. Debe hacerse con una agregación
 
 Pregunta 2
-Cómo pueden ser los tiempos de vida de los objetos creados en una base de datos orientada a objetos?
+¿Cuales son las V que caracterizan a big data ?
 Seleccione una:
-	a. ninguna de las otras
-Xx	b. persistentes o transitorios
-	c. únicamente transitorios
-	d. únicamente persistentes
+	a. Velocidad, Volatilidad, Variedad, Viabilidad
+	b. ninguna de las otras
+Xx	c. Velocidad, Veracidad, Volumen y Variedad
+	d. Volatilidad, Versatilidad, Variabilidad, Volumen
 
 Pregunta 3
- Qué significa encapsulación en una base de datos orientada a objetos?
+¿Qué es la fragmentación?
 Seleccione una:
-	a. la capacidad de una clase de tener subclases heredadas
-Xx	b. la capacidad de una clase de englobar datos y acciones e incluir restricciones sobre ellos
-	c. ninguna de las otras
-	d. la capacidad de una clase de tener un comportamiento jerárquico
+Xx	a. es romper una relación en fragmentos más pequeños para almacenarlos en diferentes sitios según sea necesario
+	b. Es un tipo de query especial
+	c. Es la replicación completa de una base de datos
+	d. ninguna de las otras
 
 Pregunta 4
- Qué característica distintiva tiene la identidad de objeto en una base orientada a objetos?
-Seleccione una:
-Xx	a. se mantiene incluso si algunos o todos sus atributos cambian
-	b. no se mantiene en absoluto
-	c. se mantiene hasta que algún atributo cambia
-	d. ninguna de las otras
-
-Pregunta 5
- Qué heredan las subclases de las clases principales?
+¿Qué son las bases de datos distribuidas?
 Seleccione una:
 	a. ninguna de las otras
-Xx	b. atributos, relaciones y métodos
-	c. únicamente los atributos
-	d. sólo atributos y métodos
+	b. son bases de datos exclusivamente en la nube
+Xx	c. son bases de datos que cuentan con varios sitios de bases de datos vinculados por un sistema de comunicaciones
+	d. son bases de datos relacionales con una arquitectura especial
+
+Pregunta 5
+Los documentos en MongoDB:
+Seleccione una:
+	a. Tienen que tener la misma estructura
+	b. Ninguna de las otras
+Xx	c. Pueden tener estructuras distintas
+	d. Tienen que ser del mismo tipo
 
 Pregunta 6
- Qué lengueajes orientados a objetos contribuyeron al desarrollo de las bases de datos orientadas a objetos?
+¿Cuáles son las arquitecturas para las bases de datos distribuidas?
 Seleccione una:
-Xx	a. C++, C -> Python, Ruby y Fortran
-	b. C ++, C
-	c. ninguna de las otras
-	d. C++,C
+x	a. Sistema Hadoop
+X	b. Cliente-Servidor, Servidor colaborador y Middleware
+	c. Administración central
+	d. ninguna de las otras
 
 Pregunta 7
- Qué es OQL?
+¿A qué se denomina big data ?
 Seleccione una:
-Xx	a. un lenguaje de consulta declarativa del tipo de lenguaje de consulta de objetos
-	b. un lenguaje de consulta declarativa del tipo de lenguaje de consulta de tablas relacionales
-	c. un lenguaje de consulta declarativa del tipo de lenguaje de consulta de bases de datos NoSQL
-	d. ninguna de las otras
+Xx	a. a cantidad de datos más allá de la capacidad de las herramientas actuales
+	b. ninguna de las otras
+	c. a un conjunto de herramientas
+	d. a una forma de datos no estructurados
 
 Pregunta 8
- Cuando fue creado el Grupo de administración de la base de datos de objetos?
+¿Cómo se llama el proceso de analizar los datos de big Data?
 Seleccione una:
-Xx	a. en 1989
-	b. ninguna de las otras
-	c. en 1999
-	d. en 2009
+	a. ninguna de las otras
+Xx	b. Big analytics
+	c. Big activity
+	d. Big Query
 
 Pregunta 9
- Cuales fueron los primeros lenguajes orientados a objetos?
+¿Cómo se crea una base de datos con MongoDB?
 Seleccione una:
-	a. Smalltalk y Fortran
-	b. Fortran y Cobol
-Xx	c. Simula y Smalltalk
-	d. ninguna de las otras
+	a. Exportándola de una base relacional
+	b. Con el comando insert()
+	c. Ninguna de las otras
+Xx	d. Utilizando el comando use()
 
 Pregunta 10
- Qué es una clase?
+¿Qué significa proyectar?
 Seleccione una:
-Xx	a. Objetos similares con el mismo conjunto de propiedades
-	b. ninguna de las otras
-	c. objetos disimilares con distintas propiedades
-	d. todo el conjunto de objetos de un programa
+Xx	a. Filtrar la salida de una consulta a campos específicos
+	b. Ninguna de las otras
+	c. Replicar una base de datos
+	d. Asociar un documento a otro
 
 Calificación: 9 de 10 (90%)

@@ -1,0 +1,85 @@
+Módulo 1
+Unidad 1
+Exámen de Bases de datos Fundamentos de Bases de Datos
+
+Pregunta 1
+El uso de memoria de acceso al azar integrada a los discos rígidos sirve para
+Seleccione una:
+X	a. Mejorar mediante técnicas de caché las velocidades de acceso aleatorio
+	b. sólo incrementaría el consumo de energía
+	c. sólo incrementaría el costo
+x	d. sólo mejoraría la velocidad de acceso secuencial
+
+Pregunta 2
+Las bases de datos jerárquicas
+Seleccione una:
+	a. Son un desarrollo dependiente de la orientación a objetos
+Xx	b. Se desarrollan entre 1960 y 1970 Correcta
+	c. Son un desarrollo del siglo XXI
+	d. Ninguna de las otras
+
+Pregunta 3
+A los inicios del SXXI el mercado comercial de bases de datos relacionales estuvo dominado por
+Seleccione una:
+	a. Oracle y Sybase
+Xx	b. IBM, Microsoft y Oracle Correcta
+	c. Informix y DB2
+	d. Jazmin y MySQL
+
+Pregunta 4
+La velocidad de acceso secuencial
+Seleccione una:
+	a. se mide recuperando los datos en bloques de tamaño predefinido
+Xx	b. se mide recuperando los datos en el orden en el cual se encuentran almacenados Correcta
+	c. se mide recuperando los datos en un orden aleatorio
+	d. Ninguna de las otras
+
+Pregunta 5
+La capacidad de almacenamiento de los discos rígidos
+Seleccione una:
+	a. Se ha mantenido estable mientras los precios van creciendo
+	b. Fue creciendo pero también crecieron los precios y el volumen físico
+	c. Se ha mantenido estable en los últimos 50 años
+Xx	d. Fue creciendo al tiempo que el volumen físico disminuía
+
+Pregunta 6
+Los discos SSD
+Seleccione una:
+	a. Ninguna de las otras
+	b. tienen la misma velocidad de acceso aleatorio que los discos de platos
+	c. son más baratos que los discos con platos del mismo tamaño
+Xx	d. Tienen muchísima más velocidad de acceso aleatorio que sus equivalentes con platos 
+
+Pregunta 7
+Dos modelos fueron propuestos por Codd en la década de 1960 para describir bases de datos
+Seleccione una:
+	a. Modelo de objetos y modelo relacional
+	b. Modelo por filas y modelo por columnas
+X	c. Modelo físico y modelo lógico
+x	d. Modelo de red y modelo jerárquico 
+
+Pregunta 8
+Tres conceptos sobre bases de datos desarrollados por Codd en la década de 1960 fueron
+Seleccione una:
+	a. Derivability, Integrity, Consistency
+Xx	b. Derivability, Redundancy y Consistency Correcta
+	c. Derivability, Consistency, Confiability
+	d. Integrity, Redundancy, Consistency
+
+Pregunta 9
+Las cintas magnéticas
+Seleccione una:
+	a. No presentan una ventaja relativa de la velocidad secuencial respecto de la aleatoria ni viceversa
+	b. Tienen mejor velocidad de acceso aleatorio que secuencial
+Xx	c. Tienen mejor velocidad de acceso secuencial que aleatorio Correcta
+	d. Ninguna de las otras
+
+Pregunta 10
+Los discos SSD
+Seleccione una:
+	a. Ninguna de las otras
+	b. son más baratos que los discos con platos del mismo tamaño
+Xx	c. Son mas caros que los discos con platos de tamaños equivalentes Correcta
+	d. tienen la misma velocidad de acceso aleatorio que los discos de platos
+
+Calificación: 8 de 10 (80%)

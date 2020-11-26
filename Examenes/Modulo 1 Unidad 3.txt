@@ -1,0 +1,85 @@
+Módulo 1
+Unidad 3
+Exámen de Bases de datos Relacionales
+
+Pregunta 1
+La sentencia CREATE PROCEDURE
+Seleccione una:
+	a. Se usa para crear un índice
+	b. Se usa para crear una función
+Xx	c. Se utiliza para crear un procedimiento almacenado Correcta
+	d. Se usa para crear una vista
+
+Pregunta 2
+Los índices ocupan
+Seleccione una:
+	a. cada índice ocupa, por lo menos, el mismo espacio que la tabla original
+Xx	b. espacio adicional al de la tabla Correcta
+	c. ninguna de las otras
+	d. están contenidos en la propia tabla y no ocupan espacio adicional
+
+Pregunta 3
+La sentencia ALTER FUNCTION
+Seleccione una:
+Xx	a. Se utiliza para modificar una función definida por el usuario ya existente Correcta
+	b. Se usa para modificar un índice
+	c. Se usa para modificar un procedimiento almacenado
+	d. Se usa para modificar una vista
+
+Pregunta 4
+La sentencia CREATE INDEX
+Seleccione una:
+	a. se utiliza para modificar un índice existente
+Xx	b. se utiliza para crear un índice Correcta
+	c. se utiliza para destruir un índice existente
+	d. ninguna de las otras
+
+Pregunta 5
+La sentencia CREATE FUNCTION
+Seleccione una:
+	a. Se usa para eliminar un índice
+	b. Se usa para eliminar un procedimiento almacenado
+Xx	c. Se utiliza para crear funciones definidas por el usuario Correcta
+	d. Se usa para eliminar una vista
+
+Pregunta 6
+La sentencia CREATE VIEW
+Seleccione una:
+	a. Se utiliza para destruir una vista existente
+	b. Se utiliza para modificar una vista existente
+	c. ninguna de las otras
+Xx	d. Se utiliza para crea una vista
+
+Pregunta 7
+La presencia de índices
+Seleccione una:
+	a. Sólo acelera las búsquedas y jamás impacta en las operaciones de insert, update ni delete
+	b. No tiene impacto en la velocidad a la cual se realizan las búsquedas
+	c. Ralentiza los inserts y delete pero jamás acelera las búsquedas
+Xx	d. Acelera las búsquedas pero ralentiza las operaciones de insert, update y delete
+
+Pregunta 8
+La sentencia DROP FUNCTION
+Seleccione una:
+	a. Se usa para borrar un procedimiento almacenado
+Xx	b. Se utiliza para borrar una función definida por el usuario ya existente Correcta
+	c. Se usa para borrar un índice
+	d. Se usa para borrar una vista
+
+Pregunta 9
+La sentencia TRUNCATE TABLE
+Seleccione una:
+	a. Se utiliza para destruir una tabla existente
+	b. Se utiliza para crear una tabla
+Xx	c. Se utiliza para vaciar el contenido de una tabla sin tocar su estructura Correcta
+	d. Se utiliza para modificar una tabla existente
+
+Pregunta 10
+La sentencia ALTER TABLE
+Seleccione una:
+	a. Se utiliza para crear una tabla
+	b. Se utiliza para vaciar el contenido de una tabla sin tocar su estructura
+	c. Se utiliza para destruir una tabla existente
+Xx	d. Se utiliza para modificar una tabla existente
+
+Calificación: 

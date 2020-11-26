@@ -1,0 +1,85 @@
+Módulo 1
+Unidad 3
+Exámen de Bases de datos Estructura de las Bases de Datos
+
+Pregunta 1
+El backup completo
+Seleccione una:
+Xx	a. Saca una foto del estado actual de la base de datos y se basta por si mismo para una restauración Correcta
+	b. Va acumulando las diferencias desde el último backup completo y alcanza con el ultimo backup completo y el de la pregunta para producir la restauración
+	c. Guarda solo los cambios desde el último backup del mismo tipo y requiere toda la historia de backups anteriores desde el ultimo backup completo
+	d. ninguna de las otras
+
+Pregunta 2
+El backup incremental
+Seleccione una:
+	a. ninguna de las otras
+	b. Saca una foto del estado actual de la base de datos y se basta por si mismo para una restauración
+Xx	c. Guarda solo los cambios desde el último backup del mismo tipo y requiere toda la historia de backups anteriores desde el ultimo backup completo Correcta
+	d. Va acumulando las diferencias desde el último backup completo y alcanza con el ultimo backup completo y el de la pregunta para producir la restauración
+
+Pregunta 3
+Tres cosas a tener en cuenta para evitar el crecimiento desmedido de una base de datos son
+Seleccione una:
+	a. Realizar el backup, borrar los datos viejos y evitar el crecimiento del negocio
+	b. Realizar el backup, evitar el uso de los tipos de datos texto y binarios, evitar los índices innecesarios
+Xx	c. Tener en cuenta el ciclo de vida de cada dato, no crear índices innecesarios y partir las tablas por algún criterio que facilite las búsquedas Correcta
+	d. Realizar el backup, evitar los índices innecesarios y limitar el crecimiento de los dispositivos
+
+Pregunta 4
+Para realizar las tareas analíticas conviene
+Seleccione una:
+	a. Utilizar el mismo hardware de la operación pero crear índices adicionales en la base de datos operativa para acelerar las consultas analíticas.
+	b. Utilizar un hardware independiente para procesar pero usar los mismos datos que la operación
+	c. Reaprovechar el hardware de la operación pero mantener los datos separados
+Xx	d. Manejarse en forma tan independiente como sea posible en hardware y software para evitar interferir con la operación
+
+Pregunta 5
+Un almacén de datos secundario se crea
+Seleccione una:
+	a. ninguna de las otras
+	b. sólo cuando se llena el primario
+Xx	c. de forma opcional, para superar el límite de tamaño de archivo que impone el sistema de archivos o para repartir una base de datos entre múltiples discos Correcta
+	d. sólo por motivos de velocidad de acceso
+
+Pregunta 6
+Tres estrategias de backup son
+Seleccione una:
+Xx	a. Completo, incremental y diferencial Correcta
+	b. Completo, incremental y parcial
+	c. Completo, parcial y preventivo
+	d. Completo, parcial y diferencial
+
+Pregunta 7
+La recuperación de espacio
+Seleccione una:
+	a. ninguna de las otras
+	b. Permite consolidar los datos pero no puede devolver espacio al sistema operativo
+	c. Permite devolver al sistema operativo solo el espacio que queda libre después de la última página usada pero no puede reacomodar las páginas
+Xx	d. Permite consolidar los datos agilizando la lectura y, eventualmente, devolver espacio al sistema operativo
+
+Pregunta 8
+Al realizar un producto cartesiano sin condición de join el objeto resultante tiene
+Seleccione una:
+	a. Una cantidad de registros igual a la menor de las dos cantidades de registros de las dos tablas que participan del join
+Xx	b. Una cantidad de registros igual al producto de las cantidades de registros de las dos tablas que participan del join Correcta
+	c. Una cantidad de registros igual a la mayor de las dos cantidades de registros de las dos tablas que participan del join
+	d. Una cantidad de registros igual a la suma de las cantidades de registros de las dos tablas que participan del join
+
+Pregunta 9
+La sentencia BEGIN TRANSACTION
+Seleccione una:
+	a. ninguna de las otras
+Xx	b. Marca el inicio de una transacción Correcta
+	c. Marca el fin de una transacción
+	d. Pide deshacer una transacción no cerrada
+
+Pregunta 10
+La sentencia COMMIT TRANSACTION
+Seleccione una:
+	a. Marca el inicio de una transacción
+	b. ninguna de las otras
+	c. Pide deshacer una transacción no cerrada
+Xx	d. Marca el fin de una transacción
+
+Calificación: 10 de 10 (100%)

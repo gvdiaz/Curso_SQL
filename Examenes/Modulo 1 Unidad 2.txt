@@ -1,0 +1,85 @@
+Módulo 1
+Unidad 2
+Exámen de Bases de datos Relacionales
+
+Pregunta 1
+La segunda forma normal
+Seleccione una:
+	a. exige que haya un orden en las filas de una tabla
+Xx	b. Exige que cada campo sea función de la clave primaria completa y no de algún subconjunto de la clave primaria Correcta
+	c. exige que todas las columnas estén en orden alfabético
+	d. ninguna de las otras
+
+Pregunta 2
+Llamamos tabla
+Seleccione una:
+	a. a cada índice
+	b. a cualquier conjunto de datos
+Xx	c. al conjunto de filas y columnas que trae información sobre una entidad en particular Correcta
+	d. a cada vista
+
+Pregunta 3
+Las operaciones básicas sobre los registros de una tabla son
+Seleccione una:
+Xx	a. insertar, consultar, modificar y eliminar Correcta
+	b. creación y destrucción
+	c. consulta
+	d. altas, bajas y modificaciones
+
+Pregunta 4
+La primera forma normal
+Seleccione una:
+Xx	a. exige que no haya filas duplicadas Correcta
+	b. ninguna de las otras
+	c. exige que todas las columnas estén en orden alfabético
+	d. exige que haya un orden en las filas de una tabla
+
+Pregunta 5
+La primera forma normal
+Seleccione una:
+	a. exige que haya un orden en las filas de una tabla
+	b. exige que todas las columnas estén en orden alfabético
+	c. ninguna de las otras
+Xx	d. Exige que todos los datos de una columna sean del mismo tipo 
+
+Pregunta 6
+Llamamos campo
+Seleccione una:
+	a. tanto a filas como a columnas de una tabla
+	b. a cada fila de una tabla
+	c. ninguna de las otras
+Xx	d. a cada columna de una tabla
+
+Pregunta 7
+La primera forma normal
+Seleccione una:
+	a. exige que todas las columnas estén en orden alfabético
+	b. exige que haya un orden en las filas de una tabla
+Xx	c. exige que no haya orden entre las columnas de una tabla Correcta
+	d. ninguna de las otras
+
+Pregunta 8
+La sentencia SELECT
+Seleccione una:
+	a. sirve para modificar registros existentes en una tabla
+	b. sirve para agregar registros a una tabla
+Xx	c. sirve para consultar registros existentes en una tabla Correcta
+	d. sirve para borrar registros de una tabla
+
+Pregunta 9
+NULL representa
+Seleccione una:
+	a. Lo mismo que un cero para los campos numéricos
+	b. Lo mismo que un string vacio para los campos alfanuméricos
+x	c. ninguna de las otras Incorrecta
+X	d. un valor faltante o desconocido
+
+Pregunta 10
+La tercera forma normal
+Seleccione una:
+	a. exige que todas las columnas estén en orden alfabético
+X	b. Exige que cada campo sea función de la clave primaria completa y algún otro campo
+x	c. ninguna de las otras Incorrecta
+	d. exige que haya un orden en las filas de una tabla
+
+Calificación: 8 de 10 (80%)

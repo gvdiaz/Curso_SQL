@@ -1,0 +1,86 @@
+Módulo 2
+Unidad 4
+Exámen de DB2
+
+Pregunta 1
+Si queremos prohibir valores nulos en una columna en DB2 debemos
+Seleccione una:
+x	a. Seleccionar la opción no nulo en la pantalla de creación de la tabla en cada campo que componga la clave primaria que deseamos
+	b. Marcar la opción AI
+	c. Cargar un valor por defecto
+	d. Marcar UQ y B
+
+
+Pregunta 2
+Para crear una tabla dentro IBM Data Studio debo
+Seleccione una:
+x	a. Establecer la conexión, elegir el objeto Tablas y seleccionar Crear Tabla
+	b. Sólo se puede hacer con la sentencia CREATE TABLE desde una ventana de código SQL
+	c. Partir del objeto Tables y seleccionar Add Table
+	d. Partir del objeto Tables y seleccionar New Table
+
+Pregunta 3
+Para usar un procedimiento almacenado desde una ventana de código SQL en DB2 usamos la sentencia
+Seleccione una:
+	a. call
+	b. drop
+x	c. execute
+	d. use
+
+Pregunta 4
+Para crear un índice en DB2 debemos
+Seleccione una:
+	a. Posicionarnos sobre Indexes y elegir New Index
+x	b. Desde el explorador de administración buscamos Índices y seleccionamos "Crear Índice"
+	c. Sólo pueden crearse mediante código SQL en la ventana de código
+	d. Posicionarnos sobre Indexes y elegir Add Index
+
+Pregunta 5
+Para que un campo o conjunto de campos sean la clave primaria en DB2 necesitamos
+Seleccione una:
+	a. Marcar la opción AI
+x	b. Seleccionar la opción clave primaria en la pantalla de creación de la tabla en cada campo que componga la clave primaria que deseamos
+	c. Cargar un valor por defecto
+	d. Marcar NN y UQ
+
+Pregunta 6
+Para borrar una función escalar en DB2 debemos
+Seleccione una:
+	a. posicionarnos sobre la función y elegir remove function
+	b. posicionarnos sobre la función y elegir delete function
+	c. Sólo puede borrarse mediante código SQL en la ventana de código
+x	d. Posicionarnos sobre la función y seleccionar "Borrar Función"
+
+Pregunta 7
+Para borrar una vista en DB2 debemos
+Seleccione una:
+	a. posicionarnos sobre la vista y elegir remove view
+	b. posicionarnos sobre la vista y elegir delete view
+	c. Sólo puede borrarse mediante código SQL en la ventana de código
+x	d. Posicionarnos sobre la vista y seleccionar "Borrar Vista"
+
+Pregunta 8
+Para crear un procedimiento almacenado en DB2 debemos
+Seleccione una:
+	a. Posicionarnos sobre el índice que acelerará el uso del procedimiento almacenado
+	b. Desde el explorador de administración buscamos "Objetos de Aplicación" y dentro de este "Procedimientos Almacenados" desde donde tomamos "Nuevo Procedimiento almacenado"
+	c. Posicionarnos sobre la tabla que será usada por el procedimiento almacenado
+	d. Sólo pueden crearse mediante código SQL en la ventana de código
+
+Pregunta 9
+Como resultado de la ejecución de un procedimiento almacenado en DB2 podemos
+Seleccione una:
+x	a. Obtener un set de resultados y ejecutar sentencias SQL
+	b. sólo podemos ejecutar sentencias SQL
+	c. no podemos ni ejecutar sentencias ni devolver un set de resultados
+	d. sólo podemos obtener un set de resultados de vuelta
+
+Pregunta 10
+Para editar los primeros 50 registros de la tabla, ya sea que existan o no en DB2 
+Seleccione una:
+	a. Sólo puede hacerse con la sentencia DELETE
+x	b. Seleccionar la tabla y el menú contextual Editar Datos
+	c. Sólo puede hacerse con la sentencia INSERT
+	d. Sólo puede hacerse con la sentencia UPDATE
+
+Calificación: 10 de 10 (100%)

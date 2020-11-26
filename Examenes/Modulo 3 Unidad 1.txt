@@ -1,0 +1,85 @@
+Módulo 3
+Unidad 1
+Exámen de Base documental
+
+Pregunta 1
+Una base de datos documental es
+Seleccione una:
+x	a. una base de datos no relacional
+	b. orientada a objetos
+	c. relacional
+	d. ninguna de las otras
+
+Pregunta 2
+¿Qué tienen los navegadores actuales que simplifican el uso de JSON?
+Seleccione una:
+	a. ninguna de las otras
+	b. tienen un lenguaje de programación embebido llamado AJAX
+x	c. la mayoría tienen herramientas de JSON incorporadas
+	d. no tienen nada en particular, sólo se usa XML para los navegadores
+
+Pregunta 3
+¿Cuáles son dos bases de datos documentales XML?
+Seleccione una:
+x	a. la base de datos de código abierto existe y la base de datos propietaria MarkLogic
+	b. la base de datos de código abierto MongoDB y la base de datos propietaria MarkLogic
+	c. la base de datos de código abierto MarkLogic y la base de datos propietaria Exist
+	d. ninguna de las otras
+
+Pregunta 4
+¿Cuál es la desventaja que tiene el formato XML en comparación con JSON?
+Seleccione una:
+	a. ninguna de las otras
+	b. no tiene desventajas, al contrario es mucho más rápido que JSON
+	c. es caro, ya que todas las aplicaciones que lo usan son propietarias
+x	d. es computacionalmente costoso de procesar
+
+Pregunta 5
+¿Qué tipo de documentos almacena una base de datos documental?
+Seleccione una:
+x	a. Documentos estructurados
+	b. documentos de tipo PDF
+	c. documentos no estructurados
+	d. ninguna de las otras
+
+Pregunta 6
+¿Qué tipos de bases de datos NoSQL existen?
+Seleccione una:
+x	a. Almacenes de gráficos, almacenes de tipo Key-value, bases de datos documentales y bases de datos de columna ancha
+	b. sólo almacenes de gráficos y de tipo key-value
+	c. ninguna de las otras
+	d. Únicamente bases de datos documentales
+
+Pregunta 7
+¿Cuándo surgió el concepto de bases NoSQL?
+Seleccione una:
+	a. en la década del 80
+	b. ninguna de las otras
+x	c. en la década del 90
+	d. hace 5 años
+
+Pregunta 8
+¿Qué tipo de bases documentales son LotusNotes, DocumentDB y SimpleDB?
+Seleccione una:
+	a. son bases documentales con versiones tanto propietarias como de código abierto
+	b. ninguna de las otras
+x	c. son bases de datos documentales de código propietario
+	d. son bases de datos documentales de código abierto
+
+Pregunta 9
+¿Qué es MongoDB?
+Seleccione una:
+x	a. una base de datos de código abierto basada en JSON surgida entre 2007 y 2009
+	b. una base de datos de código abierto basada en JSON surgida entre 2000 y 2001
+	c. una base de datos de código abierto basada en XML surgida entre 2007 y 2009
+	d. ninguna de las otras
+
+Pregunta 10
+¿Qué es un documento en una base de datos documental?
+Seleccione una:
+x	a. es la unidad básica de almacenamiento
+	b. ninguna de las otras
+	c. es la forma de grabar los datos de las bases de datos documentales
+	d. es el equivalente a una tabla en una base de datos relacional
+
+Calificación: 10 de 10 (100%)

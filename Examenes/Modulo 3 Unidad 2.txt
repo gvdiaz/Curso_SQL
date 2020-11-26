@@ -1,0 +1,86 @@
+Módulo 3
+Unidad 2
+Exámen de Bases de datos en memoria
+
+Pregunta 1
+¿Cómo es el tamaño en una base de datos en memoria?
+Seleccione una:
+	a. limitado únicamente por el tamaño del disco
+	b. ninguna de las otras
+	c. ilimitado
+Xx	d. limitado por el tamaño de la memoria
+
+Pregunta 2
+¿Cómo se logra la persistencia en Redis?
+Seleccione una:
+x	a. ninguna de las otras
+	b. utilizando únicamente el disco
+	c. no se logra la persistencia en Redis
+X	d. copiando instantáneas de la base al disco
+
+Pregunta 3
+¿Cuándo es conveniente elegir una base de datos en memoria?
+Seleccione una:
+Xx	a. para bases de datos chicas
+	b. ninguna de las otras
+	c. para todo tipo de bases de datos
+	d. para bases de datos muy grandes
+
+Pregunta 4
+¿Cómo logra la persistencia VoltDB?
+Seleccione una:
+	a. mediante la replicación en una única máquina
+	b. ninguna de las otras
+	c. de la misma forma que SAP-HANA, TimesTen y Redis
+Xx	d. mediante la replicación en varias máquinas
+
+Pregunta 5
+¿Qué tipo de licencia posee TimesTen?
+Seleccione una:
+	a. ninguna de las otras
+	b. es propietaria ofrecida por IBM
+Xx	c. es propietaria ofrecida por ORACLE
+	d. es únicamente de código abierto
+
+Pregunta 6
+¿Qué comparte SAP-HANA con TimesTen y Redis para lograr la persistencia?
+Seleccione una:
+X	a. tienen la misma arquitectura para persistencia mediante la escritura de instantáneas al disco
+	b. no tienen similitudes todos usan diferentes arquitecturas para lograr la persistencia
+	c. ninguna de las otras
+x	d. tienen la misma arquitectura para persistencia mediante el uso exclusivo de la memoria
+
+Pregunta 7
+¿Cómo se logra la persistencia en TimesTen?
+Seleccione una:
+	a. utilizando únicamente la memoria
+	b. utilizando únicamente el disco
+Xx	c. escribiendo instantáneas periódicas de la memoria en el disco
+	d. ninguna de las otras
+
+Pregunta 8
+¿Cuál es el principal problema que deben evitar las bases de datos en memoria?
+Seleccione una:
+Xx	a. evitar perder datos
+	b. ninguna de las otras
+	c. evitar disminuir los tiempos de IO
+	d. evitar utilizar los SSD
+
+Pregunta 9
+¿Qué ha ocurrido con los HD a lo largo del tiempo?
+Seleccione una:
+	a. se volvieron cada vez más caros pero más rápidos para procesos de IO
+X	b. se volvieron cada vez más baratos pero más lentos para procesos de IO
+	c. se volvieron cada vez más caros pero más lentos para procesos de IO
+x	d. ninguna de las otras
+
+Pregunta 10
+¿Qué es Redis?
+Seleccione una:
+Xx	a. una solución de código abierto y es una almacén de tipo key-value Correcta
+	b. una solución de código abierto y es una almacén de tipo key-value sólo para documentos de tipo PDF
+	c. una solución propietaria y es una almacén de tipo key-value
+	d. ninguna de las otras
+
+
+Calificación: 7 de 10 (70%)

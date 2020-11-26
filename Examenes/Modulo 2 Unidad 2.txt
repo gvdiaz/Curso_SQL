@@ -1,0 +1,92 @@
+Módulo 2
+Unidad 2
+Exámen de SQL server
+Pregunta 1
+Para borrar una función escalar en SQL Server debemos
+Seleccione una:
+Xx	a. Nos paramos sobre la función y seleccionamos delete en el menú contextual
+	b. posicionarnos sobre la función y elegir remove function
+	c. Sólo puede borrarse mediante código SQL en la ventana de código
+	d. posicionarnos sobre la función y elegir delete function
+
+
+Pregunta 2
+Para crear un trigger en SQL Server debemos
+Seleccione una:
+	a. Sólo pueden crearse mediante código SQL en la ventana de código
+Xx	b. Nos paramos sobre la tabla y desplegamos sus objetos, seleccionamos trigger y en el menú contextual "New trigger…"
+	c. Posicionarnos sobre Triggers y elegir Add Trigger
+	d. Posicionarnos sobre Triggers y elegir New Trigger
+
+Pregunta 3
+Si queremos prohibir valores nulos en una columna en SQL Server debemos
+Seleccione una:
+Xx	a. Al cargar cada campo indicar NO en allow nulls
+	b. Marcar UQ y B
+	c. Cargar un valor por defecto
+	d. Marcar la opción AI
+
+Pregunta 4
+Como resultado de la ejecución de un procedimiento almacenado en SQL Server podemos
+Seleccione una:
+	a. no podemos ni ejecutar sentencias ni devolver un set de resultados
+X	b. podemos ejecutar sentencias SQL y obtener un set de resultados
+x	c. sólo podemos ejecutar sentencias SQL
+	d. sólo podemos obtener un set de resultados de vuelta
+
+
+Pregunta 5
+Para borrar una tabla en SQL Server debemos
+Seleccione una:
+	a. posicionarnos sobre la tabla y elegir delete table
+	b. Sólo puede borrarse mediante código SQL en la ventana de código
+	c. posicionarnos sobre la tabla y elegir remove table
+x	d. Nos paramos sobre la tabla y seleccionamos delete en el menú contextual
+
+
+Pregunta 6
+Para editar los primeros 100 registros de la tabla, ya sea que existan o no en SQL Server 
+Seleccione una:
+	a. Sólo puede hacerse con la sentencia DELETE
+	b. Sólo puede hacerse con la sentencia INSERT
+	c. Sólo puede hacerse con la sentencia UPDATE
+x	d. Nos paramos sobre la tabla y en el menú contextual seleccionamos Edit Top 100 Rows
+
+
+Pregunta 7
+Para borrar un procedimiento almacenado en SQL Server debemos
+Seleccione una:
+	a. posicionarnos sobre el procedimiento almacenado y elegir remove stored procedure
+X	b. Nos paramos sobre el procedimiento almacenado y seleccionamos delete en el menú contextual
+x	c. posicionarnos sobre el procedimiento almacenado y elegir delete stored procedure
+	d. Sólo puede borrarse mediante código SQL en la ventana de código
+
+
+Pregunta 8
+Para iniciar un backup en SQL Server partimos de la opción
+Seleccione una:
+	a. Add backup
+	b. Nos paramos sobre la base de datos y seleccionamos Tasks y Backup en el menú contextual
+	c. New backup
+	d. Add data
+
+
+Pregunta 9
+Para crear una función escalar en SQL Server debemos
+Seleccione una:
+x	a. Dentro del explorador de objetos vamos a programmability, seleccionamos functions, new y allí "New Scalar Function…"
+	b. Posicionarnos sobre Functions y elegir Add Function
+	c. Sólo pueden crearse mediante código SQL en la ventana de código
+	d. Posicionarnos sobre Functions y elegir New Function
+
+
+Pregunta 10
+Para restablecer un backup en SQL Server partimos de la opción
+Seleccione una:
+x	a. Nos paramos sobre la base de datos y seleccionamos Tasks y Restore en el menú contextual
+	b. Substract data
+	c. Old backup
+	d. Substract backup
+
+
+Calificación: 8 de 10 (80%)

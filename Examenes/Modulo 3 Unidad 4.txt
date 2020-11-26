@@ -1,0 +1,85 @@
+Módulo 3
+Unidad 3
+Exámen de Bases de datos orientada a objetos
+
+Pregunta 1
+ Cómo se logra almacenar datos de aplicaciones que utilizan programas orientados a objetos en RDBMS?
+Seleccione una:
+Xx	a. mediante SQL embebido
+	b. mediante programas en Fortran
+	c. mediante SQL standard
+	d. ninguna de las otras
+
+Pregunta 2
+Cómo pueden ser los tiempos de vida de los objetos creados en una base de datos orientada a objetos?
+Seleccione una:
+	a. ninguna de las otras
+Xx	b. persistentes o transitorios
+	c. únicamente transitorios
+	d. únicamente persistentes
+
+Pregunta 3
+ Qué significa encapsulación en una base de datos orientada a objetos?
+Seleccione una:
+	a. la capacidad de una clase de tener subclases heredadas
+Xx	b. la capacidad de una clase de englobar datos y acciones e incluir restricciones sobre ellos
+	c. ninguna de las otras
+	d. la capacidad de una clase de tener un comportamiento jerárquico
+
+Pregunta 4
+ Qué característica distintiva tiene la identidad de objeto en una base orientada a objetos?
+Seleccione una:
+Xx	a. se mantiene incluso si algunos o todos sus atributos cambian
+	b. no se mantiene en absoluto
+	c. se mantiene hasta que algún atributo cambia
+	d. ninguna de las otras
+
+Pregunta 5
+ Qué heredan las subclases de las clases principales?
+Seleccione una:
+	a. ninguna de las otras
+Xx	b. atributos, relaciones y métodos
+	c. únicamente los atributos
+	d. sólo atributos y métodos
+
+Pregunta 6
+ Qué lengueajes orientados a objetos contribuyeron al desarrollo de las bases de datos orientadas a objetos?
+Seleccione una:
+Xx	a. C++, C -> Python, Ruby y Fortran
+	b. C ++, C
+	c. ninguna de las otras
+	d. C++,C
+
+Pregunta 7
+ Qué es OQL?
+Seleccione una:
+Xx	a. un lenguaje de consulta declarativa del tipo de lenguaje de consulta de objetos
+	b. un lenguaje de consulta declarativa del tipo de lenguaje de consulta de tablas relacionales
+	c. un lenguaje de consulta declarativa del tipo de lenguaje de consulta de bases de datos NoSQL
+	d. ninguna de las otras
+
+Pregunta 8
+ Cuando fue creado el Grupo de administración de la base de datos de objetos?
+Seleccione una:
+Xx	a. en 1989
+	b. ninguna de las otras
+	c. en 1999
+	d. en 2009
+
+Pregunta 9
+ Cuales fueron los primeros lenguajes orientados a objetos?
+Seleccione una:
+	a. Smalltalk y Fortran
+	b. Fortran y Cobol
+Xx	c. Simula y Smalltalk
+	d. ninguna de las otras
+
+Pregunta 10
+ Qué es una clase?
+Seleccione una:
+Xx	a. Objetos similares con el mismo conjunto de propiedades
+	b. ninguna de las otras
+	c. objetos disimilares con distintas propiedades
+	d. todo el conjunto de objetos de un programa
+
+Calificación: 9 de 10 (90%)

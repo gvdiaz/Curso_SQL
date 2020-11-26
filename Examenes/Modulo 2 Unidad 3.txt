@@ -1,0 +1,93 @@
+Módulo 2
+Unidad 3
+Exámen de Oracle
+Pregunta 1
+Para borrar un índice en Oracle debemos
+Seleccione una:
+Xx	a. Nos paramos sobre el índice y seleccionamos BORRAR en el menú contextual
+	b. posicionarnos sobre el índice y elegir delete index
+	c. posicionarnos sobre el índice y elegir remove index
+	d. Sólo puede borrarse mediante código SQL en la ventana de código
+
+Pregunta 2
+Para borrar una función escalar en Oracle debemos
+Seleccione una:
+	a. posicionarnos sobre la función y elegir delete function
+	b. Sólo puede borrarse mediante código SQL en la ventana de código
+Xx	c. Nos paramos sobre la función y seleccionamos BORRAR en el menú contextual
+	d. posicionarnos sobre la función y elegir remove function
+
+
+Pregunta 3
+Para crear un trigger en Oracle debemos
+Seleccione una:
+	a. Sólo pueden crearse mediante código SQL en la ventana de código
+	b. Posicionarnos sobre Triggers y elegir Add Trigger
+Xx	c. Nos paramos sobre Disparadores y seleccionamos Nuevo Disparador en el menú contextual
+	d. Posicionarnos sobre Triggers y elegir New Trigger
+
+
+Pregunta 4
+Para crear una vista en Oracle debemos
+Seleccione una:
+	a. Sólo pueden crearse mediante código SQL en la ventana de código
+	b. Posicionarnos sobre Views y elegir New View
+	c. Posicionarnos sobre Views y elegir Add View
+Xx	d. Nos paramos sobre vistas y seleccionamos Nueva Vista en el menú contextual
+
+
+Pregunta 5
+Para crear un procedimiento almacenado en Oracle debemos
+Seleccione una:
+	a. Sólo pueden crearse mediante código SQL en la ventana de código
+	b. Posicionarnos sobre la tabla que será usada por el procedimiento almacenado
+	c. Posicionarnos sobre el índice que acelerará el uso del procedimiento almacenado
+Xx	d. Nos paramos sobre Procedimientos y seleccionamos Nuevo Procedimiento en el menú contextual
+
+
+Pregunta 6
+Para que un campo o conjunto de campos sean la clave primaria en Oracle necesitamos
+Seleccione una:
+Xx	a. Marcar la columna PK de todos los campos que queremos dentro de la clave con el signo de la llave en la ventana de creación de la tabla
+	b. Cargar un valor por defecto en la ventana de creación de la tabla
+	c. Marcar la opción AI en la ventana de creación de la tabla
+	d. Marcar NN y UQ en la ventana de creación de la tabla
+
+
+Pregunta 7
+Para borrar una vista en Oracle debemos
+Seleccione una:
+	a. posicionarnos sobre la vista y elegir delete view
+	b. posicionarnos sobre la vista y elegir remove view
+	c. Sólo puede borrarse mediante código SQL en la ventana de código
+Xx	d. Nos paramos sobre la vista y seleccionamos BORRAR en el menú contextual
+
+
+Pregunta 8
+Para borrar una tabla en Oracle debemos
+Seleccione una:
+	a. posicionarnos sobre la tabla y elegir delete table
+Xx	b. Nos paramos sobre la tabla y seleccionamos BORRAR en el menú contextual
+	c. Sólo puede borrarse mediante código SQL en la ventana de código
+	d. posicionarnos sobre la tabla y elegir remove table
+
+
+Pregunta 9
+Si queremos prohibir valores nulos en una columna en Oracle debemos
+Seleccione una:
+	a. Marcar UQ y B en la ventana de creación de la tabla
+	b. Marcar la opción AI en la ventana de creación de la tabla
+Xx	c. Tildar no nulo el campo correspondiente en la ventana de creación de la tabla
+	d. Cargar un valor por defecto en la ventana de creación de la tabla
+
+
+Pregunta 10
+Como resultado de la ejecución de un procedimiento almacenado en Oracle podemos
+Seleccione una:
+	a. no podemos ni ejecutar sentencias ni devolver un set de resultados
+X	b. sólo podemos obtener un set de resultados de vuelta
+	c. sólo podemos ejecutar sentencias SQL
+x	d. Podemos ejecutar sentencias y obtener un set de resultados
+
+
+Calificación: 9 de 10 (90%)

@@ -1,0 +1,90 @@
+Módulo 2
+Unidad 1
+Exámen de MySQL
+Pregunta 1
+Para borrar una tabla en MySQL debemos
+Seleccione una:
+Xx	a. Posicionarnos sobre la tabla y elegir drop table
+	b. posicionarnos sobre la tabla y elegir remove table
+	c. Sólo puede borrarse mediante código SQL en la ventana de código
+	d. posicionarnos sobre la tabla y elegir delete table
+
+Pregunta 2
+Para usar un procedimiento almacenado desde una ventana de código en MySQL  usamos la sentencia:
+Seleccione una:
+	a. drop
+Xx	b. CALL
+	c. use
+	d. execute
+
+Pregunta 3
+Para editar los primeros 50 registros de la tabla, ya sea que existan o no en MySQL
+Seleccione una:
+	a. Sólo puede hacerse con la sentencia UPDATE
+Xx	b. Nos paramos sobre el objeto de la tabla que cuelga de Tables y seleccionamos Select Rows Limit 50
+	c. Sólo puede hacerse con la sentencia INSERT
+	d. Sólo puede hacerse con la sentencia DELETE
+
+
+Pregunta 4
+Para crear un trigger en MySQL debemos
+Seleccione una:
+	a. Posicionarnos sobre Triggers y elegir New Trigger
+	b. Sólo pueden crearse mediante código SQL en la ventana de código
+Xx	c. Posicionarnos sobre la tabla, desplegar sus objetos y en el menú elegir Triggers, Create Trigger
+	d. Posicionarnos sobre Triggers y elegir Add Trigger
+
+
+Pregunta 5
+Para crear una función escalar en MySQL  debemos
+Seleccione una:
+	a. Posicionarnos sobre Functions y elegir New Function
+	b. Posicionarnos sobre Functions y elegir Add Function
+Xx	c. Posicionarnos sobre Functions y en el menú elegir Create Functions
+	d. Sólo pueden crearse mediante código SQL en la ventana de código
+
+
+Pregunta 6
+Para crear una tabla dentro MySQL Workbench debo:
+Seleccione una:
+	a. Partir del objeto Tables y seleccionar Add Table
+Xx	b. Partir del objeto Tables y seleccionar Create Table
+	c. Sólo se puede hacer con la sentencia CREATE TABLE desde una ventana de código SQL
+	d. Partir del objeto Tables y seleccionar New Table
+
+Pregunta 7
+Para borrar una función escalar en MySQL debemos
+Seleccione una:
+	a. posicionarnos sobre la función y elegir delete function
+	b. posicionarnos sobre la función y elegir remove function
+	c. Sólo puede borrarse mediante código SQL en la ventana de código
+Xx	d. posicionarnos sobre la función y elegir drop function
+
+Pregunta 8
+Para crear un índice debemos en MySQL 
+Seleccione una:
+Xx	a. Posicionarnos sobre la tabla, desplegar sus objetos y en el menú elegir Indexes y luego sobre primary y finalmente Create Index
+	b. Sólo pueden crearse mediante código SQL en la ventana de código
+	c. Posicionarnos sobre Indexes y elegir New Index
+	d. Posicionarnos sobre Indexes y elegir Add Index
+
+
+Pregunta 9
+Las dos operaciones que podemos hacer entre un usuario y un permiso en MySQL son:
+Seleccione una:
+	a. add y substract
+Xx	b. GRANT y REVOKE
+	c. add y remove
+	d. insert y delete
+
+
+Pregunta 10
+Para iniciar un backup en MySQL partimos de la opción
+Seleccione una:
+	a. Add data
+Xx	b. Data Export
+	c. New backup
+	d. Add backup
+
+
+Calificación: 100% respuestas correctas
